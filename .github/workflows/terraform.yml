@@ -39,3 +39,7 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan
+
+      # --- Apply Step Added ---
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
